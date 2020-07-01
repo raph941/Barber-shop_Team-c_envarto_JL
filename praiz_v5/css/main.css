@@ -1,0 +1,92 @@
+/* BASE */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif !important;
+  box-sizing: border-box;
+}
+
+a, a:visited, a:focus, a:active {
+  text-decoration: none !important;
+}
+
+/* utilities */
+.sec-padding {
+  padding: 20px 0;
+}
+
+.sec-padding-big {
+  padding: 30px 0;
+}
+
+
+.sec-heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+
+.services {
+  background-color: #F9F9F9;
+} 
+
+.services .row  {
+  margin-bottom: 20px;
+}
+
+.section-serve-box {
+  background-color: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+
+.header-box {
+  background-color: #162838;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+}
+
+.header-box h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.section-serve-box p {
+  padding: 0 10px;
+}
+
+.icons {
+  height: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sec-bg {
+  background-color: #162838;
+}
+
+.section-services2 .row .col-lg-6 {
+  position: relative;
+}
+
+.section-services2 .col-lg-6 img {
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+  transform: translateX(-50%) scale(2.9);
+}
+
+.sec-bg .row {
+  margin-bottom: 1rem; 
+}
